@@ -5,11 +5,15 @@ const data = [
 
 // 1. Print Developers
 function printDeveloper() {
+    let found=false;
     for (let person of data) {
-        if (person.profession === "developer") {
-            console.log("Name : " + person.name + ", Age : " + person.age);
+        if (person.profession === 'developer') {
+            found=true;
+            console.log('Name : ' + person.name + ', Age : ' + person.age);
         }
     }
+    if(found===false)
+        console.log("No developer found")
 }
 
 // 2. Add Data
