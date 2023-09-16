@@ -13,7 +13,7 @@ function printDeveloper() {
         }
     }
     if(found===false)
-        console.log("No developer found")
+        console.log("No developer found");
 }
 
 // 2. Add Data
