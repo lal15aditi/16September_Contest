@@ -7,9 +7,9 @@ const data = [
 function printDeveloper() {
     let found=false;
     for (let person of data) {
-        if (person.profession === 'developer') {
+        if (person.profession === "developer") {
             found=true;
-            console.log('Name : ' + person.name + ', Age : ' + person.age);
+            console.log("Name : " + person.name + ", Age : " + person.age);
         }
     }
     if(found===false)
